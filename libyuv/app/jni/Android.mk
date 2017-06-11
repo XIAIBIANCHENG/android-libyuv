@@ -58,4 +58,7 @@ ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
         source/scale_neon.cc.neon
 endif
 
+LOCAL_SRC_FILES += \
+test.c
+
 include $(BUILD_SHARED_LIBRARY)
